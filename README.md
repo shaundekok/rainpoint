@@ -10,7 +10,8 @@ Requirements:
    - node-red-contrib-random-string
 4. MQTT
 5. Rainpoint Application (instead of Homegar):
-  Logging in via this API will log you out in the app. It is advisable to create a separate API account from the app:
+
+   Logging in via this API will log you out in the app. It is advisable to create a separate API account from the app:
   - Log out from your main account
   - Create a new account
   - Log out and back into your main account
