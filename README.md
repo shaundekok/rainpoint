@@ -32,7 +32,7 @@ Setup
    - MQTT Out Discovery
      - Add your MQTT Server Details, including credentials
 4. Deploy this flow.
-5. Make sthe that the following connect:
+5. Make sure that the following connect:
   - MQTT Out Discovery
   - MQTT Out State
 6. The values will automatically be displayed using MQTT Auto Discovery, i.e. sensor.rainpoint_"sensor name"_variable
