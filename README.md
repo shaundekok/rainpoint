@@ -26,7 +26,7 @@ Setup
      - areaCode: Telephone Country Code, i.e. "27"
      - phoneOrEmail: email address
      - payload: password
-     - count: -1
+     - count: 0
      - Set repeat for every 1 to 3 minutes
    - MQTT Out Discovery
      - Add your MQTT Server Details, including credentials
