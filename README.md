@@ -18,6 +18,7 @@ Requirements:
   - Invite your new account from 'Me' → 'Home management' → your home → 'Members'
   - Log out and back into your new account
   - Accept the invite
+  - Make sure that you remove the default "home" that is created. Only the home with the sensors should remain in the 2nd accounts.
 
 Setup
 1. Install the Addtional Nodes
