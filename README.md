@@ -38,6 +38,8 @@ Setup
   - MQTT Out State
 6. The values will automatically be displayed using MQTT Auto Discovery, i.e. sensor.rainpoint_"sensor name"_variable
 
+![Dashboard](https://github.com/shaundekok/rainpoint/blob/main/rainpoint.png)
+
 Supported Devices:
 1. RainPoint Smart+ Soil & Moisture Sensor (HCS021FRF)
 2. RainPoint Smart+ High Precision Rain Sensor (HCS012ARF)
