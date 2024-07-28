@@ -39,6 +39,7 @@ Setup
 6. The values will automatically be displayed using MQTT Auto Discovery, i.e. sensor.rainpoint_"sensor name"_variable
 
 Dashboard
+
 ![Dashboard](https://github.com/shaundekok/rainpoint/blob/main/rainpoint.png)
 
 Supported Devices:
