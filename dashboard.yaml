@@ -1,0 +1,300 @@
+preload_cards:
+  - markdown
+  - conditional
+title: Home
+views:
+  - title: Rainpoint
+    path: rainpoint
+    type: sections
+    sections:
+      - type: grid
+        cards:
+          - type: picture
+            image: /api/image/serve/85a1b613d3069e121bcd31045f2b66c9/512x512
+            layout_options:
+              grid_columns: 4
+              grid_rows: 4
+      - type: grid
+        cards:
+          - type: picture
+            image: /api/image/serve/bb98a840698c4d293c6e72d64aaa15ac/512x512
+            layout_options:
+              grid_columns: 2
+              grid_rows: 3
+          - type: custom:mini-graph-card
+            entities:
+              - entity: sensor.rainpoint_soil_moisture
+                show_state: true
+              - entity: sensor.rainpoint_soil_temperature
+                show_state: true
+                show_graph: false
+              - entity: sensor.rainpoint_soil_lux
+                show_state: true
+                show_graph: false
+            name: Soil Moisture
+            smoothing: true
+            show:
+              points: hover
+              average: true
+              extrema: true
+              fill: false
+            points_per_hour: 4
+            hours_to_show: 24
+            line_width: 5
+            color_thresholds:
+              - value: 0
+                color: '#193675'
+              - color: '#153E95'
+              - color: '#1246B6'
+              - color: '#0B4FE3'
+              - color: '#0B92E3'
+              - value: 15
+                color: '#00FF72'
+              - color: '#09E26A'
+              - color: '#0F984B'
+              - color: '#0CA851'
+              - color: '#0AC95F'
+              - value: 30
+                color: '#FA5151'
+              - color: '#F14040'
+              - color: '#EC2323'
+              - color: '#EA0C0C'
+              - color: '#BE0101'
+              - value: 45
+                color: '#550000'
+            layout_options:
+              grid_columns: 2
+              grid_rows: 4
+        title: Grass
+      - type: grid
+        cards:
+          - type: picture
+            image: /api/image/serve/2c147aded018c90c445eff83c55cf0dc/512x512
+            layout_options:
+              grid_columns: 2
+              grid_rows: 3
+          - type: custom:mini-graph-card
+            entities:
+              - entity: sensor.rainpoint_rain_1hr
+                show_state: true
+              - entity: sensor.rainpoint_rain_24hrs
+                show_state: true
+                show_graph: false
+              - entity: sensor.rainpoint_rain_7days
+                show_state: true
+                show_graph: false
+              - entity: sensor.rainpoint_rain_total
+                show_state: true
+                show_graph: false
+            name: Rain Gauge
+            smoothing: true
+            show:
+              points: hover
+              average: true
+              extrema: true
+              fill: false
+            points_per_hour: 4
+            hours_to_show: 24
+            line_width: 5
+            color_thresholds:
+              - value: 0
+                color: '#193675'
+              - color: '#153E95'
+              - color: '#1246B6'
+              - color: '#0B4FE3'
+              - color: '#0B92E3'
+              - value: 5
+                color: '#00FF72'
+              - color: '#09E26A'
+              - color: '#0F984B'
+              - color: '#0CA851'
+              - color: '#0AC95F'
+              - value: 15
+                color: '#FA5151'
+              - color: '#F14040'
+              - color: '#EC2323'
+              - color: '#EA0C0C'
+              - color: '#BE0101'
+              - value: 30
+                color: '#550000'
+            layout_options:
+              grid_columns: 2
+              grid_rows: 4
+        title: Rain Gauge
+      - type: grid
+        cards:
+          - type: picture
+            image: /api/image/serve/d90aaabb561d7173a53684fe304efa9c/512x512
+            layout_options:
+              grid_columns: 2
+              grid_rows: 4
+          - type: custom:mini-graph-card
+            entities:
+              - entity: sensor.rainpoint_flowmeter_real_time
+                show_state: true
+                show_graph: true
+              - entity: sensor.rainpoint_flowmeter_today
+                show_state: true
+                show_graph: false
+              - entity: sensor.rainpoint_flowmeter_current
+                show_state: true
+                show_graph: false
+              - entity: sensor.rainpoint_flowmeter_current_duration
+                show_state: true
+                show_graph: false
+            name: Flow Meter Today
+            smoothing: true
+            show:
+              points: hover
+              average: true
+              extrema: true
+              fill: false
+            points_per_hour: 4
+            hours_to_show: 24
+            line_width: 5
+            layout_options:
+              grid_columns: 2
+              grid_rows: 4
+          - type: entities
+            entities:
+              - entity: sensor.rainpoint_flowmeter_last
+              - entity: sensor.rainpoint_flowmeterlast_duration
+              - entity: sensor.rainpoint_flowmeter_total
+            layout_options:
+              grid_columns: 4
+              grid_rows: 3
+        title: Flowmeter
+      - type: grid
+        cards:
+          - type: picture
+            image: /api/image/serve/965dc208b24df2333f5249739720675e/512x512
+            layout_options:
+              grid_columns: 2
+              grid_rows: 3
+          - type: custom:mini-graph-card
+            entities:
+              - entity: sensor.rainpoint_outside_temp_current_temperature
+                show_state: true
+            name: Temperaure
+            smoothing: true
+            show:
+              points: hover
+              average: true
+              extrema: true
+              fill: false
+            points_per_hour: 4
+            hours_to_show: 24
+            line_width: 5
+            color_thresholds:
+              - value: 0
+                color: '#193675'
+              - color: '#153E95'
+              - color: '#1246B6'
+              - color: '#0B4FE3'
+              - color: '#0B92E3'
+              - value: 15
+                color: '#00FF72'
+              - color: '#09E26A'
+              - color: '#0F984B'
+              - color: '#0CA851'
+              - color: '#0AC95F'
+              - value: 30
+                color: '#FA5151'
+              - color: '#F14040'
+              - color: '#EC2323'
+              - color: '#EA0C0C'
+              - color: '#BE0101'
+              - value: 45
+                color: '#550000'
+            layout_options:
+              grid_columns: 2
+              grid_rows: 4
+          - type: custom:mini-graph-card
+            entities:
+              - entity: sensor.rainpoint_outside_temp_current_humidity
+                show_state: true
+            name: Humidity
+            smoothing: true
+            show:
+              points: hover
+              average: true
+              extrema: true
+              fill: false
+            points_per_hour: 4
+            hours_to_show: 24
+            line_width: 5
+            color_thresholds:
+              - value: 0
+                color: '#193675'
+              - color: '#153E95'
+              - color: '#1246B6'
+              - color: '#0B4FE3'
+              - color: '#0B92E3'
+              - value: 15
+                color: '#00FF72'
+              - color: '#09E26A'
+              - color: '#0F984B'
+              - color: '#0CA851'
+              - color: '#0AC95F'
+              - value: 30
+                color: '#FA5151'
+              - color: '#F14040'
+              - color: '#EC2323'
+              - color: '#EA0C0C'
+              - color: '#BE0101'
+              - value: 45
+                color: '#550000'
+            layout_options:
+              grid_columns: 2
+              grid_rows: 4
+        title: Outside Temerpature
+      - type: grid
+        cards:
+          - type: picture
+            image: /api/image/serve/46596edd935cf6442d504b445cdcbb2d/512x512
+            layout_options:
+              grid_columns: 2
+              grid_rows: 3
+          - type: custom:mini-graph-card
+            entities:
+              - entity: sensor.rainpoint_pool_current_temperature
+                show_state: true
+            name: Temperaure
+            smoothing: true
+            show:
+              points: hover
+              average: true
+              extrema: true
+              fill: false
+            points_per_hour: 4
+            hours_to_show: 24
+            line_width: 5
+            color_thresholds:
+              - value: 0
+                color: '#193675'
+              - color: '#153E95'
+              - color: '#1246B6'
+              - color: '#0B4FE3'
+              - color: '#0B92E3'
+              - value: 10
+                color: '#00FF72'
+              - color: '#09E26A'
+              - color: '#0F984B'
+              - color: '#0CA851'
+              - color: '#0AC95F'
+              - value: 20
+                color: '#FA5151'
+              - color: '#F14040'
+              - color: '#EC2323'
+              - color: '#EA0C0C'
+              - color: '#BE0101'
+              - value: 30
+                color: '#550000'
+            layout_options:
+              grid_columns: 2
+              grid_rows: 4
+        title: Pool Temperature
+    max_columns: 3
+    cards: []
+    background: {}
+    icon: mdi:water
