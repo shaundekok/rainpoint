@@ -19,6 +19,12 @@ Requirements:
   - Log out and back into your new account
   - Accept the invite
   - Make sure that you remove the default "home" that is created. Only the home with the sensors should remain in the 2nd accounts.
+6. Rainpoint Device Address
+   It is important that your sensor's device addresses are consecutive. Gaps in the numbering are casued when sensors are removed. I will look to implement a workaround in a future release.
+  - Go through the list of sensors in the app from top to bottom.
+  - Open each sensor, then click settings and review the device address.
+  - The first sensor should be 1, then next 2, then 3 etc.
+  - If they are not, remove the sensors that are after the gap and re-add them. This should close this gap and prevent the flow from erroring out.
 
 Setup
 1. Install the Addtional Nodes
