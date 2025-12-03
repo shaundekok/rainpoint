@@ -1,4 +1,4 @@
-# Rainpoint API Node-Red Flow - Broken due to change in payload from the API
+# Rainpoint API Node-Red Flow
 Thank you to https://github.com/Remboooo for making this possible
 
 This Project is intended for someone with existing Home Assistant / Node-Red Experience
