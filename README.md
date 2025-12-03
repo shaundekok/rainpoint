@@ -43,6 +43,7 @@ Setup
   - MQTT Out Discovery
   - MQTT Out State
 6. The values will automatically be displayed using MQTT Auto Discovery, i.e. sensor.rainpoint_"sensor name"_variable
+7. The flow has been setup to sync data every 5 minutes. This is inline with the standard app syncing.
 
 If you would like to use the Rainpoint App (instead of Homgar), you need to change the appCode to 2 in the following nodes:
 
@@ -54,6 +55,8 @@ If you would like to use the Rainpoint App (instead of Homgar), you need to chan
 Dashboard
 
 ![Dashboard](https://github.com/shaundekok/rainpoint/blob/main/rainpoint.png)
+
+
 
 Supported Devices:
 1. RainPoint Smart+ Soil & Moisture Sensor (HCS021FRF) - New Decoder
