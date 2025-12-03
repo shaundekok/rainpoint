@@ -44,6 +44,13 @@ Setup
   - MQTT Out State
 6. The values will automatically be displayed using MQTT Auto Discovery, i.e. sensor.rainpoint_"sensor name"_variable
 
+If you would like to use the Rainpoint App (instead of Homgar), you need to change the appCode to 2 in the following nodes:
+
+- Hamgar Login
+- Hamgar Get Home
+- Hamgar Devices
+- Hamgar Get Device Status
+
 Dashboard
 
 ![Dashboard](https://github.com/shaundekok/rainpoint/blob/main/rainpoint.png)
