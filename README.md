@@ -8,6 +8,7 @@ Requirements:
 2. Node-Red Addon, additional nodes
    - node-red-contrib-crypto-js
    - node-red-contrib-random-string
+   - node-red-contrib-credentials
 4. MQTT
 5. Homgar Application (instead of Rainpoint):
 
