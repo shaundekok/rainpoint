@@ -51,7 +51,7 @@ Dashboard
 Supported Devices:
 1. RainPoint Smart+ Soil & Moisture Sensor (HCS021FRF) - New Decoder
 2. RainPoint Smart+ High Precision Rain Sensor (HCS012ARF) - New Decoder
-3. RainPoint Smart+ Water Flow Meter (HCS008FRF)
-4. RainPoint Smart+ Air Quality Meter | CO₂ Detector | Temp | Humidity
+3. RainPoint Smart+ Water Flow Meter (HCS008FRF) - New Decoder
+4. RainPoint Smart+ Air Quality Meter (HCS0530THO) | CO₂ Detector | Temp | Humidity - New Decoder
 5. RainPoint Smart+ Smart Pool Thermometer (HCS0528ARF) - Coming Soon
 6. RainPoint Smart+ Outdoor Air Humidity Sensor (HCS014ARF) - Coming Soon
