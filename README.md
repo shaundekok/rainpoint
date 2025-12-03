@@ -9,7 +9,7 @@ Requirements:
    - node-red-contrib-crypto-js
    - node-red-contrib-random-string
 4. MQTT
-5. Rainpoint Application (instead of Homegar):
+5. Homgar Application (instead of Rainpoint):
 
    Logging in via this API will log you out in the app. It is advisable to create a separate API account from the app:
   - Log out from your main account
@@ -49,8 +49,9 @@ Dashboard
 ![Dashboard](https://github.com/shaundekok/rainpoint/blob/main/rainpoint.png)
 
 Supported Devices:
-1. RainPoint Smart+ Soil & Moisture Sensor (HCS021FRF)
-2. RainPoint Smart+ High Precision Rain Sensor (HCS012ARF)
-3. RainPoint Smart+ Outdoor Air Humidity Sensor (HCS014ARF)
-4. RainPoint Smart+ Water Flow Meter (HCS008FRF)
-5. RainPoint Smart+ Smart Pool Thermometer (HCS0528ARF)
+1. RainPoint Smart+ Soil & Moisture Sensor (HCS021FRF) - New Decoder
+2. RainPoint Smart+ High Precision Rain Sensor (HCS012ARF) - New Decoder
+3. RainPoint Smart+ Water Flow Meter (HCS008FRF)
+4. RainPoint Smart+ Air Quality Meter | CO₂ Detector | Temp | Humidity
+5. RainPoint Smart+ Smart Pool Thermometer (HCS0528ARF) - Coming Soon
+6. RainPoint Smart+ Outdoor Air Humidity Sensor (HCS014ARF) - Coming Soon
