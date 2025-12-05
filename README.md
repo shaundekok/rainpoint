@@ -55,8 +55,7 @@ If you would like to use the Rainpoint App (instead of Homgar), you need to chan
 
 Dashboard
 
-![Dashboard](https://github.com/shaundekok/rainpoint/blob/main/rainpoint.png)
-
+<img width="1411" height="649" alt="image" src="https://github.com/user-attachments/assets/e1630b3f-f1bb-4521-9b38-1d6c730c9a18" />
 
 
 Supported Devices:
