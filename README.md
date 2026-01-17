@@ -30,7 +30,9 @@ Requirements:
 Setup
 1. Install the Addtional Nodes
 2. Import the JSON file into your Node-Red Instance
-3. Update the following Nodes:
+   - For Homgar App use - homgar_flows.json
+   - For Rainpoint App use - rainpoint_flows.json
+4. Update the following Nodes:
    - Credentials (Use new account created above) 
      - areaCode: Telephone Country Code, i.e. "27"
      - phoneOrEmail: email address
@@ -39,19 +41,12 @@ Setup
      - Set repeat for every 1 to 3 minutes
    - MQTT Out Discovery
      - Add your MQTT Server Details, including credentials
-4. Deploy this flow.
-5. Make sure that the following connect:
+5. Deploy this flow.
+6. Make sure that the following connect:
   - MQTT Out Discovery
   - MQTT Out State
 6. The values will automatically be displayed using MQTT Auto Discovery, i.e. sensor.rainpoint_"sensor name"_variable
 7. The flow has been setup to sync data every 5 minutes. This is inline with the standard app syncing.
-
-If you would like to use the Rainpoint App (instead of Homgar), you need to change the appCode to 2 in the following nodes:
-
-- Hamgar Login
-- Hamgar Get Home
-- Hamgar Devices
-- Hamgar Get Device Status
 
 Dashboard
 
