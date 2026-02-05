@@ -60,4 +60,4 @@ Supported Devices:
 4. RainPoint Smart+ Air Quality Meter (HCS0530THO) | CO₂ Detector | Temp | Humidity - New Decoder
 5. RainPoint Smart+ Temperature, Humidity & Lux Sensor (HCS014ARF) - New Decoder
 6. RainPoint Smart+ Temperature & Humidity (HCS026FRF) - New Decoder
-7. RainPoint Smart+ Smart Pool Thermometer (HCS0528ARF) - Coming Soon
+7. RainPoint Smart+ Smart Pool Thermometer (HCS0528ARF) - New Decoder
