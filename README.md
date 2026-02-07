@@ -29,16 +29,18 @@ Requirements:
 
 Setup
 1. Install the Addtional Nodes
-2. Import the JSON file into your Node-Red Instance
-   - For Homgar App use - homgar_flows.json
-   - For Rainpoint App use - rainpoint_flows.json
+2. Import the JSON file into your Node-Red Instance - Homgar_Rainpoint_Flow.json
 4. Update the following Nodes:
    - Credentials (Use new account created above) 
      - areaCode: Telephone Country Code, i.e. "27"
      - phoneOrEmail: email address
      - payload: password
      - count: -1
-     - Set repeat for every 1 to 3 minutes
+     - appcode:
+       - Homgar: 1
+       - Rainpoint: 2
+   - Inject:
+   -    Set repeat for every 1 to 3 minutes - Default 2 minutes
    - MQTT Out Discovery
      - Add your MQTT Server Details, including credentials
 5. Deploy this flow.
